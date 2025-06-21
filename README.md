@@ -4,6 +4,8 @@ Visualize a 1D dataset with three normal distributions, classified via Gaussian 
 Red, green, blue histograms with known PDFs.
 Grey histogram with estimated PDFs.
 
+To see the results <a href="https://sbecker11.github.io/threedistvis/docs/">click here</a>
+
 Setup
 
 Clone the Repository:
