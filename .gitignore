@@ -1,0 +1,15 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+conda-meta/
+distributions_data.csv
+*.egg-info/
+build/
+dist/
+*.log
+*.DS_Store
