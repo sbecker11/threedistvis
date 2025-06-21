@@ -3,7 +3,7 @@ name = "ThreeDistVis"
 version = "0.1.0"
 description = "Visualize three normal distributions with GMM classification for Power BI, Streamlit, and Tableau"
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Shawn Becker", email = "sbecker11@me.com" }
 ]
 requires-python = ">=3.9"
 dependencies = [
@@ -20,7 +20,12 @@ dev = [
 ]
 
 [project.scripts]
-threedistvis = "threedistvis.main:main"
+ThreeDistVis = "ThreeDistVis.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["threedistvis"]
+package-dir = { "" = "src" }
+packages = ["ThreeDistVis"]

@@ -1,4 +1,4 @@
-name: threedistvis
+name: ThreeDistVis
 channels:
   - conda-forge
   - defaults
@@ -9,3 +9,4 @@ dependencies:
   - scipy
   - scikit-learn
   - pandas
+- streamlit
