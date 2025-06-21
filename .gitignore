@@ -7,7 +7,6 @@ env/
 venv/
 .venv/
 conda-meta/
-distributions_data.csv
 *.egg-info/
 build/
 dist/

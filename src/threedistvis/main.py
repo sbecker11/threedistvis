@@ -48,7 +48,7 @@ def main():
 
     # Instructions for each tool
     instructions = {
-        'Power BI': (
+        'PowerBI': (
             "Import distributions_data.csv. Graph 1: Clustered Column Chart, bin 'value' (50 bins), count 'value', legend 'color'. "
             "Overlay PDFs with Line Chart using DAX for norm.pdf. Graph 2: Histogram of 'value' (grey), overlay PDFs with 'predicted_color'."
         ),

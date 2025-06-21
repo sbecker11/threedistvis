@@ -41,12 +41,28 @@ Power BI
 Streamlit
 Tableau
 
-
-
-
-
-
-
+Project Structure
+```
+├── distributions_data.csv
+├── docs
+│   ├── index.html
+│   ├── power bi.png
+│   ├── streamlit.png
+│   └── tableau.png
+├── environment.yml
+├── images
+│   ├── power bi.png
+│   ├── streamlit.png
+│   └── tableau.png
+├── LICENSE
+├── pyproject.toml
+├── README.md
+└── src
+    └── ThreeDistVis
+        ├── __init__.py
+        ├── __pycache__
+        └── main.py
+```
 
 Deployment
 Deployed to GitHub Pages.
@@ -67,3 +83,4 @@ Documentation: Include a README.md with thumbnail-sized images linking to full-s
 The discussion evolved to refine the visualization format (PNG outputs), ensure reproducibility, and address potential issues like dependency management and deployment.
 License
 MIT License
+q
